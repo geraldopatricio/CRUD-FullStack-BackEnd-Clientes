@@ -7,8 +7,9 @@
 [linux-image]: https://img.shields.io/travis/nestjs/nest/master.svg?label=linux
 [linux-url]: https://travis-ci.org/nestjs/nest
   
-  <p align="center">A progressive <a href="http://nodejs.org" target="blank">Node.js</a> framework for building efficient and scalable server-side applications, heavily inspired by <a href="https://angular.io" target="blank">Angular</a>.</p>
-    <p align="center">
+<p align="center">Projeto de um BackEnd usando o NestJs para uma base de Clientes em Mysql</p>
+<p align="center">
+  
 <a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
 <a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/dm/@nestjs/core.svg" alt="NPM Downloads" /></a>
@@ -24,9 +25,10 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-## Installation
+## Objetivo
+BackEnd usando NestJs com banco Mysql, disponível o swagger na raiz do projeto e o Json pra uso no Insomnia ou Postman.
+
+## Instale o Pacote e depois rode com :dev
 ```bash
 $ npm install
 ```
@@ -39,6 +41,12 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## Para acesso à URL
+http://localhost:8080/
+
+## Video Demo
+<a href="https://youtu.be/HUl-Nuvemcw">Clique Aqui</a>
+
 ## Test
 ```bash
 # unit tests
@@ -51,13 +59,12 @@ $ npm run test:cov
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+geraldo@gpsoft.com.br
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Geraldo P Melo](https://gpsoft.com.br)
+- Website - [https://gpsoft.com.br](https://gpsoft.com.br/)
 
 ## License
 
