@@ -1,0 +1,125 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Cliente",
+        "description": "API de cadastro de Clientes",
+        "version": "1.0",
+        "contact": {}
+    },
+    "tags": [{
+        "name": "api",
+        "description": ""
+    }],
+    "servers": [],
+    "components": {
+        "schemas": {
+            "ClienteDto": {
+                "type": "object",
+                "properties": {}
+            }
+        }
+    },
+    "paths": {
+        "/": {
+            "get": {
+                "operationId": "AppController_getHello",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/cliente": {
+            "get": {
+                "operationId": "ClienteController_getAll",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "post": {
+                "operationId": "ClienteController_create",
+                "parameters": [],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ClienteDto"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/cliente/{id}": {
+            "get": {
+                "operationId": "ClienteController_getOne",
+                "parameters": [{
+                    "name": "id",
+                    "required": true,
+                    "in": "path",
+                    "schema": {
+                        "type": "number"
+                    }
+                }],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "put": {
+                "operationId": "ClienteController_update",
+                "parameters": [{
+                    "name": "id",
+                    "required": true,
+                    "in": "path",
+                    "schema": {
+                        "type": "number"
+                    }
+                }],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ClienteDto"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "delete": {
+                "operationId": "ClienteController_delete",
+                "parameters": [{
+                    "name": "id",
+                    "required": true,
+                    "in": "path",
+                    "schema": {
+                        "type": "number"
+                    }
+                }],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    }
+}
