@@ -9,9 +9,10 @@
   
 <p align="center">Projeto de um BackEnd usando o NestJs para uma base de Clientes em Mysql</p>
 <p align="center">
-  
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 
+## Technologias usadas neste projeto
+<img src="./src/assets/img/technology.png" alt="Tecnologias usadas" /> 
+  
 ## Objetivo
 BackEnd usando NestJs com banco Mysql, disponível o swagger na raiz do projeto e o Json pra uso no Insomnia ou Postman.
 
