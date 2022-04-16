@@ -32,6 +32,9 @@ $ npm run start:prod
 ## Para acesso à URL
 http://localhost:8080/
   
+## Para acesso à URL Swagger
+http://localhost:8080/api
+  
 ## Swagger
 swagger.json << Arquivo encontra-se na Raiz
   
