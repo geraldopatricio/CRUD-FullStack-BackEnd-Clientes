@@ -8,10 +8,10 @@ services:
         ports:
           - 3306:3306
         environment:
-            MYSQL_ROOT_PASSWORD: RootPassword
+            MYSQL_ROOT_PASSWORD: xxxxxx
             MYSQL_DATABASE: builders
-            MYSQL_USER: geraldo
-            MYSQL_PASSWORD: odlareg
+            MYSQL_USER: user
+            MYSQL_PASSWORD: xxxxxx
 
     dev:
         container_name: nestjs_api_dev
