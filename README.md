@@ -71,6 +71,3 @@ geraldo@gpsoft.com.br
 
 - Author - [Geraldo P Melo](https://gpsoft.com.br)
 
-## License
-
-  Nest is [MIT licensed](LICENSE).
