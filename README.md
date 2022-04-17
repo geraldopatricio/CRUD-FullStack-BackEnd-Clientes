@@ -23,7 +23,7 @@ Caso tenha o Xampp instalado crie apenas o banco builders e execute os comandos 
 $ npm install
 ```
   
-## Running the app
+## Rodar o app
 ```bash
 # development
 $ npm run start
@@ -47,12 +47,15 @@ http://localhost:8080/api
   
 ## Swagger
 swagger.json << Arquivo encontra-se na Raiz
+<img src="./src/assets/img/swagger.png" alt="Swagger" /> 
   
 ## Banco de Dados
 builders.sql << Arquivo encontra-se na Raiz
+<img src="./src/assets/img/banco.png" alt="Banco" /> 
   
 ## Arquivo JSON parar usar no Insomnia ou Postman
 Insomnia_2022-04-16.json << Arquivo encontra-se na Raiz
+<img src="./src/assets/img/json.png" alt="Json" /> 
 
 ## Video Demo
 <a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
