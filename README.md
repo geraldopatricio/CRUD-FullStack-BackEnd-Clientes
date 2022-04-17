@@ -35,6 +35,9 @@ $ npm run start:prod
 ## Caso tenha o Docker para montar a imagem use:
 ```bash
 $ docker-compose up dev database_clientes
+# Se tiver problemas e precisar alterar o docker, basta alterar os arquivos da raiz:
+  -> Dockerfile
+  -> docker-compose.yml
 ```
 
 ## Para acesso à URL
