@@ -63,11 +63,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Suporte
 
 geraldo@gpsoft.com.br
 
-## Stay in touch
+## Sobre
 
 - Author - [Geraldo P Melo](https://gpsoft.com.br)
 
