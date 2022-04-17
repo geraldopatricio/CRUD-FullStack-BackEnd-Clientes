@@ -26,7 +26,7 @@ $ npm install
 ## Rodar o app
 ```bash
 $ npm run start
-**$ npm run start:dev**
+$ npm run start:dev
 $ npm run start:prod
 ```
   
