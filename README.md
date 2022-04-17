@@ -16,12 +16,13 @@
 ## Objetivo
 BackEnd usando NestJs com banco Mysql, disponível o swagger na raiz do projeto e o Json pra uso no Insomnia ou Postman.
 
-## Instale o Pacote e depois rode com :dev
+## Instale o Pacote 
 Caso tenha o Xampp instalado crie apenas o banco builders.
 
 ```bash
 $ npm install
 ```
+  
 ## Running the app
 ```bash
 # development
@@ -31,12 +32,13 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 
-Caso não tenha use o Docker para montar a imagem
+```
+  
+## Caso não tenha use o Docker para montar a imagem
 ```bash
 $ docker-compose up dev database_clientes
 ```
 
-```
 ## Para acesso à URL
 http://localhost:8080/ ou http://localhost:3333/ se usar Docker
   
