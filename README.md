@@ -27,8 +27,8 @@ $ npm install --force
   
 ## Rodar o app
 ```bash
-$ npm run start
 $ npm run start:dev
+$ npm run start
 $ npm run start:prod
 ```
   
@@ -61,11 +61,9 @@ Insomnia_2022-04-16.json << Arquivo encontra-se na Raiz
 ## Video Demo
 <a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
 
-## Testes
+## Teste
 ```bash
 $ npm run test
-$ npm run test:e2e
-$ npm run test:cov
 ```
 
 ## Suporte
