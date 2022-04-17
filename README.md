@@ -47,15 +47,15 @@ http://localhost:8080/api
   
 ## Swagger
 swagger.json << Arquivo encontra-se na Raiz
-<img src="./src/assets/img/swagger.png" alt="Swagger" /> 
+<img src="./src/assets/img/swagger.jpg" alt="Swagger" /> 
   
 ## Banco de Dados
 builders.sql << Arquivo encontra-se na Raiz
-<img src="./src/assets/img/banco.png" alt="Banco" /> 
+<img src="./src/assets/img/banco.jpg" alt="Banco" /> 
   
 ## Arquivo JSON parar usar no Insomnia ou Postman
 Insomnia_2022-04-16.json << Arquivo encontra-se na Raiz
-<img src="./src/assets/img/json.png" alt="Json" /> 
+<img src="./src/assets/img/json.jpg" alt="Json" /> 
 
 ## Video Demo
 <a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
