@@ -21,6 +21,8 @@ Caso tenha o Xampp instalado crie apenas o banco de nome: builders e execute os 
 
 ```bash
 $ npm install
+# ou se tiver problemas com versões use
+$ npm install --force
 ```
   
 ## Rodar o app
