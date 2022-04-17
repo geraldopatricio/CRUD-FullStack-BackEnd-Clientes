@@ -17,7 +17,7 @@
 BackEnd usando NestJs com banco Mysql, disponível o swagger na raiz do projeto e o Json pra uso no Insomnia ou Postman.
 
 ## Instale o Pacote 
-Caso tenha o Xampp instalado crie apenas o banco builders e execute os comandos abaixo:
+Caso tenha o Xampp instalado crie apenas o banco de nome: builders e execute os comandos abaixo:
 
 ```bash
 $ npm install
@@ -26,7 +26,7 @@ $ npm install
 ## Rodar o app
 ```bash
 $ npm run start
-$ npm run start:dev
+<b>$ npm run start:dev</b>
 $ npm run start:prod
 ```
   
