@@ -31,6 +31,18 @@ $ npm run start:prod
 ```
 ## Para acesso à URL
 http://localhost:8080/
+  
+## Para acesso à URL Swagger
+http://localhost:8080/api
+  
+## Swagger
+swagger.json << Arquivo encontra-se na Raiz
+  
+## Banco de Dados
+builders.sql << Arquivo encontra-se na Raiz
+  
+## Arquivo JSON parar usar no Insomnia ou Postman
+Insomnia_2022-04-16.json << Arquivo encontra-se na Raiz
 
 ## Video Demo
 <a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
@@ -52,7 +64,6 @@ geraldo@gpsoft.com.br
 ## Stay in touch
 
 - Author - [Geraldo P Melo](https://gpsoft.com.br)
-- Website - [https://gpsoft.com.br](https://gpsoft.com.br/)
 
 ## License
 
