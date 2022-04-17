@@ -25,13 +25,9 @@ $ npm install
   
 ## Rodar o app
 ```bash
-# development
 $ npm run start
-# watch mode
 $ npm run start:dev
-# production mode
 $ npm run start:prod
-
 ```
   
 ## Caso tenha o Docker para montar a imagem use:
@@ -60,13 +56,10 @@ Insomnia_2022-04-16.json << Arquivo encontra-se na Raiz
 ## Video Demo
 <a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
 
-## Test
+## Testes
 ```bash
-# unit tests
 $ npm run test
-# e2e tests
 $ npm run test:e2e
-# test coverage
 $ npm run test:cov
 ```
 
