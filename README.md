@@ -23,6 +23,10 @@ Caso tenha o Xampp instalado crie apenas o banco de nome: builders e execute os 
 $ npm install
 # ou se tiver problemas com versões use
 $ npm install --force
+ 
+# ou usar o:
+$ yarn install
+  
 ```
   
 ## Rodar o app
@@ -30,11 +34,16 @@ $ npm install --force
 $ npm run start:dev
 $ npm run start
 $ npm run start:prod
+  
+# ou usar o:
+$ yarn build
+$ yarn start:prod
 ```
   
 ## Caso tenha o Docker para montar a imagem use:
 ```bash
-$ docker-compose up dev database_clientes
+$ docker-compose up database_clientes dev
+$ docker-compose database_clientes prod
 # Caso precisar alterar o docker, basta alterar os arquivos da raiz:
   -> Dockerfile
   -> docker-compose.yml
