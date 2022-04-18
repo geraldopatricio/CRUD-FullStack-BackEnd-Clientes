@@ -1,0 +1,4 @@
+FROM mysql
+
+#Copia tudo que esta dentro de ./.database para que possa ser executado na criacao do banco
+COPY ./.database/ /docker-entrypoint-initdb.d/

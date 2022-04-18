@@ -3,16 +3,20 @@ version: '3.8'
 services:
     database_clientes: 
         image: mysql
-        command: --default-authentication-plugin=mysql_native_password
+        container_name: database_clientes
         restart: always
         ports:
-          - 3306:3306
+            - 3306:3306
         environment:
-            MYSQL_ROOT_PASSWORD: xxxxxx
+            MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: builders
-            MYSQL_USER: user
-            MYSQL_PASSWORD: xxxxxx
-
+            MYSQL_USER: geraldo
+            MYSQL_PASSWORD: odlareg 
+        volumes:
+            - mysqldata:/var/lib/mysql
+            - ./.database/:/docker-entrypoint-initdb.d/
+        networks:
+          - nesjs-network
     dev:
         container_name: nestjs_api_dev
         image: nestjs-api-dev:1.0.0
@@ -54,6 +58,6 @@ services:
 networks:
     nesjs-network:
 volumes:
-    sqlserverdata:
+    mysqldata:
       driver: local
   

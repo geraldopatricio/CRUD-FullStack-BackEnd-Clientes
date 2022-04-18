@@ -6,11 +6,11 @@ COPY package*.json ./
 
 RUN apt update
 
-RUN npm install --development=true
+RUN yarn install --development=true
 
 COPY . .
 
-RUN npm run start:dev
+RUN yarn build
 
 FROM node:16  as production
 
@@ -21,7 +21,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --production=true
+RUN yarn install --production=true
 
 COPY --from=development /usr/src/app/dist /usr/src/app/dist
-CMD [ "npm", "start:prod" ]
+CMD [ "yarn", "start:prod"]
