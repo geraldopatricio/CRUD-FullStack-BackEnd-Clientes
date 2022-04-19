@@ -60,7 +60,7 @@ swagger.json << Arquivo encontra-se na Raiz
 <img src="./src/assets/img/swagger.jpg" alt="Swagger" /> 
   
 ## Banco de Dados
-builders.sql << Arquivo encontra-se na Raiz
+builders.sql << Arquivo encontra-se na pasta database
 <img src="./src/assets/img/banco.jpg" alt="Banco" /> 
   
 ## Arquivo JSON parar usar no Insomnia ou Postman
