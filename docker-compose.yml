@@ -1,22 +1,23 @@
 version: '3.8'
 
 services:
+
     database_clientes: 
         image: mysql
-        container_name: database_clientes
+        command: --default-authentication-plugin=mysql_native_password
         restart: always
-        ports:
-            - 3306:3306
         environment:
-            MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: builders
-            MYSQL_USER: geraldo
-            MYSQL_PASSWORD: odlareg 
+           MYSQL_ROOT_PASSWORD: 'root'
+           MYSQL_DATABASE: 'builders'
+           MYSQL_USER: 'geraldo'
+           MYSQL_PASSWORD: 'odlareg' 
+        ports:
+        - '3306:3306'
+        expose:
+        - '3306'
         volumes:
-            - mysqldata:/var/lib/mysql
-            - ./.database/:/docker-entrypoint-initdb.d/
-        networks:
-          - nesjs-network
+        - mysqldata:/var/lib/mysql
+        
     dev:
         container_name: nestjs_api_dev
         image: nestjs-api-dev:1.0.0
@@ -24,21 +25,13 @@ services:
             context: .
             target: development
             dockerfile: ./Dockerfile
-        command: npm run start:dev
         ports:
-            - 8080:3333
-            - 9229:9229
-        networks:
-            - nesjs-network
+            - 8080:8080
         volumes:
             - .:/usr/src/app
             - /usr/src/app/node_modules
-        restart: unless-stopped
-        links:
-          - database_clientes
-        depends_on:
-          - database_clientes
-          
+        restart: unless-stopped   
+
     prod:
         container_name: nestjs_api_prod
         image: nestjs-api-prod:1.0.0
@@ -48,13 +41,12 @@ services:
             dockerfile: ./Dockerfile
         command: npm run start:prod
         ports:
-            - 8080:3333
-        networks:
-            - nesjs-network
+            - 3000:3000
         volumes:
             - .:/usr/src/app
             - /usr/src/app/node_modules
-        restart: unless-stopped
+        restart: unless-stopped 
+
 networks:
     nesjs-network:
 volumes:
