@@ -50,7 +50,7 @@ $ docker-compose database_clientes prod
 ```
 
 ## Para acesso à URL
-http://localhost:8080/ ou http://localhost:3333/ se usar Docker
+http://localhost:8080/ para developer e http://localhost:3000/ para produção
   
 ## Para acesso à URL Swagger
 http://localhost:8080/api
