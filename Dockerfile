@@ -24,4 +24,4 @@ COPY package*.json ./
 RUN yarn install --production=true
 
 COPY --from=development /usr/src/app/dist /usr/src/app/dist
-CMD [ "yarn", "start:prod"]
+CMD [ "yarn", "start:prod" ]
